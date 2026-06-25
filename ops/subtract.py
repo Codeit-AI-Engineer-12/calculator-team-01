@@ -4,3 +4,6 @@ def subtract(a, b):
         return a - b
     except TypeError:
         return "Error"
+        """
+        error catch
+        """
