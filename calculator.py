@@ -1,5 +1,4 @@
+from ops.add import add
 from ops.subtract import subtract
 
-operations = {
-    '-': subtract
-}
+operations = {"+": add, "-": subtract}
