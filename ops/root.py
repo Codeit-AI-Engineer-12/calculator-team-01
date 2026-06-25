@@ -4,3 +4,6 @@ def root(a, b):
         return a ** (1 / b)
     except TypeError:
         return "Error"
+        """
+        Error catch
+        """
