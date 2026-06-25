@@ -3,7 +3,7 @@ def root(a, b):
     try:
         return a ** (1 / b)
     except TypeError:
-        return "Error"
+        return "Type Error"
         """
         Error catch
         """
