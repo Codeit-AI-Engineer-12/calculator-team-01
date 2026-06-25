@@ -1,9 +1,10 @@
 from ops.add import add
-from ops.multiply import multiply
-from ops.subtract import subtract
-from ops.divide import divide
-from ops.power import power
 from ops.derivative import derivative
+from ops.divide import divide
+from ops.max import maximum
+from ops.multiply import multiply
+from ops.power import power
+from ops.subtract import subtract
 
 operations = {
     "+": add,
@@ -12,4 +13,5 @@ operations = {
     "/": divide,
     "**": power,
     "diff": derivative,
+    "max": maximum,
 }
