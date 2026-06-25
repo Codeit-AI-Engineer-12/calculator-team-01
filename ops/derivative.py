@@ -2,6 +2,7 @@
 #x에 대한 다항식 미분
 
 def derivative(expression, _=None):
+    """x에 대한 단순 다항식 미분 결과를 문자열로 반환합니다."""
     expression = expression.replace(" ", "")
     expression = expression.replace("-", "+-")
     terms = expression.split("+")
