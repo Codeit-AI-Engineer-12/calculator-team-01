@@ -1,3 +1,4 @@
+from ops import root
 from ops.add import add
 from ops.average import average
 from ops.derivative import derivative
@@ -18,4 +19,5 @@ operations = {
     "diff": derivative,
     "min": minimum,
     "avg": average,
+    "root": root,
 }
